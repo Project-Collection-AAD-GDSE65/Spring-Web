@@ -34,4 +34,12 @@ public class Teacher {
         System.out.println("Get Param Details: id "+id);
         return "Get Param Details: id "+id;
     }
+    @PutMapping(params = {"id"})
+    String checkTheValueStatus(@RequestParam("id") int id){
+        return (id %2 == 0) ? "even":"odd";
+    }
+    @PutMapping(headers = "X-token" )
+    String getDetailsFromHeaders(@RequestHeader ("X-token") String token){
+        return token;
+    }
 }
