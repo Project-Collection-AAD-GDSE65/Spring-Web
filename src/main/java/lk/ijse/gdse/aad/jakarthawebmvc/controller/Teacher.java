@@ -25,4 +25,13 @@ public class Teacher {
     void givenReference(@PathVariable ("reference") String reference){
         System.out.println("Reference is: "+reference);
     }
+    @PostMapping(params = {"id","name"})
+    void getParamDetails(@RequestParam("id") String id,@RequestParam("name") String name){
+        System.out.println("Get Param Details: "+"name "+name +" id "+id);
+    }
+    @PostMapping(params = {"id"})
+    String getParamDetailsOnlyId(@RequestParam("id") String id){
+        System.out.println("Get Param Details: id "+id);
+        return "Get Param Details: id "+id;
+    }
 }
