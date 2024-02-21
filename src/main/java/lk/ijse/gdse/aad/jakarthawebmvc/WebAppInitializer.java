@@ -1,8 +1,8 @@
 package lk.ijse.gdse.aad.jakarthawebmvc;
 
 
-import lk.ijse.gdse.aad.jakarthawebmvc.config.WebAppConfig;
-import lk.ijse.gdse.aad.jakarthawebmvc.config.WebAppRootConfig;
+import lk.ijse.gdse.aad.jakarthawebmvc.theory.config.WebAppConfig;
+import lk.ijse.gdse.aad.jakarthawebmvc.theory.config.WebAppRootConfig;
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
 public class WebAppInitializer extends AbstractAnnotationConfigDispatcherServletInitializer {

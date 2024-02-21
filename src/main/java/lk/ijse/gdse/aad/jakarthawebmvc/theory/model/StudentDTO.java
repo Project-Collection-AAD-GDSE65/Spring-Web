@@ -1,4 +1,4 @@
-package lk.ijse.gdse.aad.jakarthawebmvc.model;
+package lk.ijse.gdse.aad.jakarthawebmvc.theory.model;
 
 
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package lk.ijse.gdse.aad.jakarthawebmvc.controller;
+package lk.ijse.gdse.aad.jakarthawebmvc.theory.controller;
 
 import org.springframework.web.bind.annotation.*;
 

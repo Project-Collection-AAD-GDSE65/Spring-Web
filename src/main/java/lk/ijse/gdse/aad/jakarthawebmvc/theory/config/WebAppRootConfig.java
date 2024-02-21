@@ -1,4 +1,4 @@
-package lk.ijse.gdse.aad.jakarthawebmvc.config;
+package lk.ijse.gdse.aad.jakarthawebmvc.theory.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

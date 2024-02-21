@@ -1,6 +1,6 @@
-package lk.ijse.gdse.aad.jakarthawebmvc.controller;
+package lk.ijse.gdse.aad.jakarthawebmvc.theory.controller;
 
-import lk.ijse.gdse.aad.jakarthawebmvc.model.StudentDTO;
+import lk.ijse.gdse.aad.jakarthawebmvc.theory.model.StudentDTO;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -19,4 +19,6 @@ public class Student {
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(student);
     }
+
+
 }
